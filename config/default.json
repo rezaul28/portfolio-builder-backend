@@ -1,6 +1,6 @@
 {
     "live" : false,
-    "DB_URL_DEV": "mongodb+srv://reza:105796@cluster0.ywkip.mongodb.net/portfolio-builder?retryWrites=true&w=majority",
+    "DB_URL_DEV": "mongodb+srv://reza:105796@cluster0.ywkip.mongodb.net/portfolio?retryWrites=true&w=majority",
     "SESSION_SECRET": "port#folio@builder@!$#$%5:asfda!@#ASF",
     "SESSION_NAME": "portfolio-builder",
     "DEV_BACKEND_PORT": 5000,

@@ -14,6 +14,7 @@ const {
   get,
   update_one,
 } = require("../../Database_plugin/database_controller");
+const User = require("../../model/User");
 
 const create_otp = async () =>
   voucher_codes.generate({
