@@ -1,0 +1,15 @@
+{
+    "live" : false,
+    "DB_URL_DEV": "mongodb+srv://reza:105796@cluster0.ywkip.mongodb.net/portfolio-builder?retryWrites=true&w=majority",
+    "SESSION_SECRET": "port#folio@builder@!$#$%5:asfda!@#ASF",
+    "SESSION_NAME": "portfolio-builder",
+    "DEV_BACKEND_PORT": 5000,
+    "BACKEND_URL_DEV": "http://localhost:5000",
+    "FRONTEND_URL_DEV": "http://localhost:3000",
+    "STRING_MIN" : 5,
+    "STRING_MAX" :20,
+    "ELEMENTS_PER_PAGE" : 20,
+    "DB_URL":"abc",
+    "BACKEND_URL" : "",
+    "FRONTEND_URL" : ""
+}
