@@ -11,5 +11,6 @@
     "ELEMENTS_PER_PAGE" : 20,
     "DB_URL":"abc",
     "BACKEND_URL" : "",
-    "FRONTEND_URL" : ""
+    "FRONTEND_URL" : "",
+    "Database" : "mongo"
 }

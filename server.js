@@ -9,6 +9,8 @@ const serverLive = config.get("live");
 const DB_URL = serverLive ? config.get("DB_URL") : config.get("DB_URL_DEV");
 const mongoose = require("mongoose");
 const route = require("./route/index_route");
+app.use(cors());
+
 mongoose.connect(
   DB_URL,
   {
@@ -20,7 +22,6 @@ mongoose.connect(
     console.log("db connected");
   }
 );
-app.use(cors());
 
 const swaggerOptions = {
   swaggerDefinition: {
